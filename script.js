@@ -2,7 +2,7 @@ $(document).ready(function() {
   
   var selection;
   var computerSelection;
-  var imgPath = 'http://timtvmedia.com/rps/';
+  var imgPath = 'https://hs.tgeorge.net/rps/';
   var result;
   
   $('#start-over').click(function() {
