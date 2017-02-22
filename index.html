@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link data-require="jquery-ui@*" data-semver="1.11.2" rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+    <script data-require="jquery-ui@*" data-semver="1.11.2" src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    
+    <div id="selection-wrapper" class="wrapper">
+      <div class="weapon">Pick your weapon</div>
+      <img id="select-rock" class="selection" data-selection="rock" src="http://timtvmedia.com/rps/rock-left.png" />
+      <img id="select-paper" class="selection" data-selection="paper" src="http://timtvmedia.com/rps/paper-left.png" />
+      <img id="select-scissors" class="selection" data-selection="scissors" src="http://timtvmedia.com/rps/scissors-left.png" />
+    </div>
+    
+    <div id="fight" class="wrapper">
+      <div class="left">
+        <div>You</div>
+        <img id="fight-left" src="http://timtvmedia.com/rps/rock-left.png" />
+      </div>
+      <div class="right">
+        <div>Computer</div>
+        <img id="fight-right" src="http://timtvmedia.com/rps/rock-right.png" />
+      </div>
+    </div>
+    
+    <div id="result"></div>
+    <div id="start-over">Start Over</div>
+    
+    
+    <div id="footer">
+      Created by: <a href="http://www.tgeorge.net" target="_blank">Timothy George</a> <br />
+      Clipart: <a href="https://openclipart.org" target="_blank">openclipart.org</a><br />
+      Source Code: <a href="https://github.com/tgeorge91/RockPaperScissorsJs" target="_blank">https://github.com/tgeorge91/RockPaperScissorsJs</a>
+    </div>
+    
+  </body>
+
+</html>
